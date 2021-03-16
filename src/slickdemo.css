@@ -1,0 +1,29 @@
+.wdt{    
+    width: 90% !important;    
+}    
+.img    
+{    
+    height: 300px !important;    
+    width: 1134px;    
+}    
+    
+.imgdetails    
+{    
+    height: 280px !important;    
+    width: 1200px !important;    
+    
+}    
+    
+.imgpad    
+{    
+    padding-bottom: 0px ;    
+    padding-top: 0px ;    
+  padding-left: 50px ;    
+  padding-right: 50px ;    
+    
+}    
+  .cls    
+  {    
+    padding-right: 300px ;    
+    background-color: blue    
+  }    
