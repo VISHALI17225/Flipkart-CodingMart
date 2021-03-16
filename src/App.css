@@ -5,6 +5,40 @@
  
   pointer-events: none;
 }
+.slide-container{
+  width: 100%;
+  height: 100%;
+  object-fit: cover
+}
+.each-slide
+{
+  width: 100%;
+  height:100%;
+}
+.example{
+ 
+  
+  height: 30px;
+ padding-top: 0%;
+ margin-left: 20%;
+ 
+  max-width: 45%;
+  border-color: white;
+  
+}
+.App-sample{
+  clear: both;
+}
+.login{
+ 
+  
+  height: 20px;
+ margin: auto;
+ 
+  max-width: 25%;
+  border-color: white;
+  
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     padding-left: 20%;
@@ -13,9 +47,40 @@
     height: 3%;
   }
 }
+
 .App-header {
-  background-color: #3275fa;
-  min-height: 10vh;
+  background-color:blue;
+  min-height: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-div1 {
+  background-color:rgb(239, 239, 243);
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-div2 {
+  background-color:white;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-footer {
+  background-color:rgb(12, 7, 32);
+  min-height: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
