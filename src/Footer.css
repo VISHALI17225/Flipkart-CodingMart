@@ -1,0 +1,41 @@
+.footer-cart
+{
+    background-color: #061a2e;
+    color:white;
+    border:1px solid #061a2e;
+    font-size:15px;
+
+}
+.foot-h 
+{
+font-size: 12px;
+
+}
+.iui
+{
+    background-color: #061a2e;
+    color:white;
+    width:100%;
+}
+a
+{
+    color:white;
+}
+.foot-head
+{
+    font-size: 11px;
+    font-weight: bold;
+}
+.foot-com
+{
+    font-size: 12px;
+}
+.code
+{
+    color:white;
+}
+.icons .ic
+{
+ display: inline;
+ margin-right: 240px;
+}
