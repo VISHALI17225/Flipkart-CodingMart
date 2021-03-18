@@ -1,12 +1,13 @@
 import './App.css';
 import React from 'react';
+//import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
 import * as ReactBootStrap from "react-bootstrap";
 import Figure from 'react-bootstrap/Figure'
-
+//import SimpleImageSlider from "react-simple-image-slider";
 import SlickDemo from './SlickDemo' 
 import SlickDemo1 from './SlickDemo1' 
-
+import Footer from './Footer'
 function App() {
   return (
      <div className="App" >
@@ -87,7 +88,6 @@ function App() {
   </Figure.Caption>
 </Figure>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <Figure>
   <Figure.Image
      width={50}
@@ -100,7 +100,6 @@ function App() {
   </Figure.Caption>
 </Figure>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <Figure>
   <Figure.Image
      width={50}
@@ -113,9 +112,7 @@ function App() {
    Beauty, Toys & More
   </Figure.Caption>
 </Figure>
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <Figure>
   <Figure.Image
      width={50}
@@ -128,7 +125,6 @@ function App() {
   </Figure.Caption>
 </Figure>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
 <Figure>
   <Figure.Image
     width={50}
@@ -151,7 +147,8 @@ function App() {
     <h1 style={{alin:'left'}}><br></br>Deals of the Day</h1>
     </div>
           </main>
-          <footer className="App-footer"></footer>
+          <footer className="App-footer"> <Footer/>
+          </footer>
              </div>
       );
 }
