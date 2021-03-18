@@ -129,9 +129,9 @@ function Footer()
     
             <div className="row text-center text-xs-center text-sm-left text-md-left">      
         
-            <img style={{width:"80px"}} className="ic" src="https://cdn0.iconfinder.com/data/icons/payment-vol-3/100/NETBanking_credit_debit_card_bank_transaction-128.png" /> 
-            <img style={{width:"80px"}} className="ic" src="https://cdn0.iconfinder.com/data/icons/payment-vol-3/100/Visa_credit_debit_card_bank_transaction-128.png" /> <i></i>
-            <img style={{width:"80px"}} className="ic" src="https://cdn1.iconfinder.com/data/icons/picons-social/57/social_mastercard-128.png" />
+            <img style={{width:"80px"}} className="ic" src="https://cdn0.iconfinder.com/data/icons/payment-vol-3/100/NETBanking_credit_debit_card_bank_transaction-128.png" alt=""/> 
+            <img style={{width:"80px"}} className="ic" src="https://cdn0.iconfinder.com/data/icons/payment-vol-3/100/Visa_credit_debit_card_bank_transaction-128.png" alt=""/> <i></i>
+            <img style={{width:"80px"}} className="ic" src="https://cdn1.iconfinder.com/data/icons/picons-social/57/social_mastercard-128.png" alt=-""/>
            
             </div>
             <br />
